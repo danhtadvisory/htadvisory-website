@@ -41,7 +41,7 @@ export default function About() {
         {/* Team members */}
         {team.map((m) => (
           <div key={m.name}>
-            <p className="font-body text-xs mb-1" style={{color:'#999'}}>{m.role}</p>
+            <p className="font-body text-sm font-bold mb-1 uppercase tracking-widest" style={{color:'#444'}}>{m.role}</p>
             <h3 className="font-display font-bold text-2xl mb-4" style={{color:'#2d8a4e'}}>{m.name}</h3>
             {/* Portrait ratio — shows full face */}
             <div className="relative w-full mb-4 overflow-hidden rounded-xl" style={{aspectRatio:'3/4'}}>
