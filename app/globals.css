@@ -1,0 +1,28 @@
+@import '@fontsource-variable/wix-madefor-display';
+@import '@fontsource-variable/wix-madefor-text';
+@import '@fontsource/barlow/300.css';
+@import '@fontsource/barlow/400.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Wix Madefor Display Variable', sans-serif;
+  --font-body: 'Wix Madefor Text Variable', sans-serif;
+  --font-meta: 'Barlow', sans-serif;
+  --green: #5cb87a;
+  --green-dark: #2d8a4e;
+  --green-light: #a8dbb8;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #ffffff;
+  color: #1c1c1c;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-body    { font-family: var(--font-body); }
+.font-meta    { font-family: var(--font-meta); }
