@@ -21,15 +21,8 @@ export default function Services() {
         <h2 className="font-display font-black text-5xl md:text-6xl uppercase mb-8" style={{color:'#ffffff',letterSpacing:'-0.01em'}}>
           Our Services
         </h2>
-        <div className="relative max-w-2xl mx-auto">
-          <div style={{
-            position:'absolute',
-            inset:'-16px -32px',
-            background:'rgba(168,219,184,0.12)',
-            border:'1px solid rgba(168,219,184,0.25)',
-            borderRadius:'999px',
-          }} />
-          <p className="relative font-body text-base md:text-lg leading-relaxed" style={{color:'rgba(255,255,255,0.82)'}}>
+        <div className="max-w-2xl mx-auto">
+          <p className="font-body text-base md:text-lg leading-relaxed" style={{color:'rgba(255,255,255,0.82)'}}>
             At Hinonga o Tutuki we are dedicated to conducting robust qualitative research on sensitive topics.
             We understand the importance of handling delicate subjects with care and precision.
             If you&apos;re ready to gain invaluable insights that respect the complexities of your research questions,
