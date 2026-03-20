@@ -30,7 +30,7 @@ export default function Hero() {
         <h1 className="font-display font-black text-6xl md:text-8xl lg:text-9xl text-black tracking-tight uppercase leading-none mb-4">
           Hinonga o Tutuki
         </h1>
-        <p className="font-display font-light text-lg md:text-2xl tracking-[0.5em] uppercase text-black/70">
+        <p className="font-display font-black text-6xl md:text-8xl lg:text-9xl text-white tracking-tight uppercase leading-none">
           Advisory
         </p>
       </div>
